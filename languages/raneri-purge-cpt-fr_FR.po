@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Raneri Purge CPT\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-17 14:34+0100\n"
+"PO-Revision-Date: 2014-05-17 14:58+0100\n"
+"Last-Translator: Raneri Web Design Snc <info@raneri.it>\n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: /Volumes/riccardoraneri.it/public_html/wp-content/plugins/"
+"raneri-purge-cpt\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: raneri-purge-cpt.php:11
+msgid "You are not allowed to call this page directly."
+msgstr "Vous n'êtes pas autorisé à ouvrir la page directement."
+
+#: raneri-purge-cpt.php:30 raneri-purge-cpt.php:38
+msgid "Purge CPT"
+msgstr "Vide CPT"
+
+#: raneri-purge-cpt.php:35
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Tu n'as pas assez de privilèges pour accéder à cette page."
+
+#: raneri-purge-cpt.php:39
+msgid "Choose the Custom Post Type you want to be deleted from the database:"
+msgstr ""
+"Choisis le Custom Post Type que tu veux éliminer de la base de données:"
+
+#: raneri-purge-cpt.php:43
+msgid "Select"
+msgstr "Sélectionne"
+
+#: raneri-purge-cpt.php:49
+msgid ""
+"Posts, Pages, Revisions, Attachments and Nav_menu_items are not shown here "
+"because they are part of the native set of post types."
+msgstr ""
+"Les Post, les Pages, les Révisions, les fichiers joints et les menus de "
+"navigation ne sont pas visibles ici car ils font partie du set de Post Type "
+"par défaut."
+
+#: raneri-purge-cpt.php:56
+msgid ""
+"This is a summary of the current post count in the database, for this Custom "
+"Post Type:"
+msgstr ""
+"Ceci est un résumé du nombre actuel de posts dans la base de données, pour "
+"ce Custom Post Type:"
+
+#: raneri-purge-cpt.php:63
+msgid ""
+"WARNING: Every post of the chosen custom post type will be ERASED from the "
+"database, including the connected metadata. Make sure you have an updated "
+"backup copy of the database before proceed. Are you sure to continue?"
+msgstr ""
+"ATTENTION: Tous les post du Custom Post Type sélectionné seront ÉLIMINÉS de "
+"la base de données, inclus aussi toutes leurs données. Assure-toi d'avoir "
+"fait une sauvegarde récente avant de continuer. Tu es bien certain de "
+"vouloir continuer?"
+
+#: raneri-purge-cpt.php:64
+msgid "Purge this CPT"
+msgstr "Vide ce CPT"
+
+#: raneri-purge-cpt.php:83
+msgid "posts have been successful deleted from the database!"
+msgstr "les posts ont été éliminés de la base de données avec succès!"
+
+#: raneri-purge-cpt.php:83
+msgid ""
+"Please take note that this function actually cleans the data, but it doesn't "
+"cancel the registration of the Custom Post Type. If you want to de-register "
+"it, you have to do it yourself."
+msgstr ""
+"Tiens compte du fait que cette fonction élimine effectivement les données, "
+"mais n'élimine pas l'existence du Custom Post Type. Si tu veux l'éliminer, "
+"tu dois le faire toi-même."
+
+#~ msgid "Raneri Free Shipping"
+#~ msgstr "Raneri Spedizione Gratuita"
+
+#~ msgid "Sets free shipping given some conditions"
+#~ msgstr "Imposta la spedizione gratuita in base a determinate condizioni"
+
+#~ msgid "Enable/Disable"
+#~ msgstr "Abilita/Disabilita"
+
+#~ msgid "Enable this shipping method"
+#~ msgstr "Abilita questo metodo di spedizione"
+
+#~ msgid "Method Title"
+#~ msgstr "Nome Metodo"
+
+#~ msgid "This controls the title which the user sees during checkout."
+#~ msgstr ""
+#~ "Quest'opzione controlla il titolo che gli utenti vedono durante il "
+#~ "pagamento."
+
+#~ msgid "Free Shipping"
+#~ msgstr "Spedizione Gratuita"
+
+#~ msgid "Minimum amount"
+#~ msgstr "Importo minimo"
+
+#~ msgid ""
+#~ "Set the minimum total cart amount - excluding shipping costs - to "
+#~ "activate free shipping. Zero means no minimum."
+#~ msgstr ""
+#~ "Imposta il totale minimo del carrello - esclusi i costi di spedizione - "
+#~ "per attivare la spedizione gratuita. Zero significa nessun minimo."
+
+#~ msgid "Quantity required"
+#~ msgstr "Quantità richiesta"
+
+#~ msgid ""
+#~ "How many products in total must be inside the cart to activate free "
+#~ "shipping?"
+#~ msgstr ""
+#~ "Quanti prodotti in totale devono essere presenti nel carrello per "
+#~ "attivare la spedizione gratuita?"
+
+#~ msgid "Reverse quantity?"
+#~ msgstr "Inverti quantità?"
+
+#~ msgid "Make required quantity a MAXIMUM quantity"
+#~ msgstr "Rendi la quantità richiesta una quantità MASSIMA"
+
+#~ msgid ""
+#~ "Check this to make the quantity above a MAXIMUM quantity. Example: if you "
+#~ "enter 3 as quantity and you don't check this, users have to buy at least "
+#~ "3 products to get free shipping; if you CHECK this, free shipping will be "
+#~ "available only if users buy 3 OR LESS products"
+#~ msgstr ""
+#~ "Attiva per rendere la quantità sopra una quantità MASSIMA. Esempio: se "
+#~ "inserisci 3 come quantità e non attivi questa opzione, gli utenti "
+#~ "dovranno acquistare almeno 3 prodotti per ottenere la spedizione "
+#~ "gratuita; se la ATTIVI, la spedizione gratuita sarà disponibile solo se "
+#~ "gli utenti acquistano 3 o MENO articoli"
+
+#~ msgid "Motivational Phrase"
+#~ msgstr "Frase motivazionale"
+
+#~ msgid ""
+#~ "Sets a phrase to encourage users to reach the minimum amount to get free "
+#~ "shipping. (it will appear above the cart -- set empty to disable -- works "
+#~ "only with minimum amount and NO minimum quantity)"
+#~ msgstr ""
+#~ "Imposta una frase per incoraggiare gli utenti a raggiungere l'importo "
+#~ "minimo per ottenere la spedizione gratuita. (apparirà sopra al carrello "
+#~ "-- lascia vuoto per disattivare -- funziona solo con un importo minimo e "
+#~ "SENZA quantità minima)"
+
+#~ msgid "Add %s of products to get free shipping!"
+#~ msgstr "Aggiungi ancora %s di prodotti per ottenere la spedizione gratuita!"
+
+#~ msgid "Countries"
+#~ msgstr "Nazioni"
+
+#~ msgid "Countries for which this shipping method is available"
+#~ msgstr "Nazioni per cui è disponibile questo metodo di spedizione"
+
+#~ msgid "All Countries"
+#~ msgstr "Tutte le Nazioni"
+
+#~ msgid ""
+#~ "When this option is activated, free shipping is available for every "
+#~ "country (the setting above is ignored)."
+#~ msgstr ""
+#~ "Quando questa opzione è attivata, la spedizione gratuita è disponibile "
+#~ "per tutte le nazioni (l'impostazione precedente viene ignorata)."
+
+#~ msgid "Exclude states/provinces"
+#~ msgstr "Escludi stati/province"
+
+#~ msgid ""
+#~ "Enter the States or Provinces for which this shipping method is NOT "
+#~ "available (e.g.: insert Alaska to exclude it from free shipping, even if "
+#~ "United States is included in the Countries list above)."
+#~ msgstr ""
+#~ "Inserisci gli Stati o le Province per le quelli questo metodo di "
+#~ "spedizione NON è disponibile (ad esempio: inserisci l'Alaska per "
+#~ "escluderla dalla spedizione gratuita, anche se gli Stati Uniti sono "
+#~ "inclusi nella lista delle Nazioni qui sopra)."
+
+#~ msgid ""
+#~ "NOTICE: If you can't find the states or the provinces of the country of "
+#~ "your interest, you must add it to the list of available countries into "
+#~ "the General WooCommerce settings, then come back here. If they continue "
+#~ "to be missing, probably they aren't available by default. For example "
+#~ "WooCommerce doesn't include French Departments; see"
+#~ msgstr ""
+#~ "NOTA: Se non trovi gli stati o le province della nazione di tuo interesse "
+#~ "devi aggiungerla alla lista delle nazioni disponibili nelle impostazioni "
+#~ "Generali di WooCommerce, quindi tornare qui. Se continuano a non "
+#~ "comparire, probabilmente non sono disponibili di default. Ad esempio "
+#~ "WooCommerce non include i Dipartimenti Francesi; Guarda"
+
+#~ msgid "the official WooCommerce docs"
+#~ msgstr "la documentazione ufficiale di WooCommerce"
+
+#~ msgid "to add custom states or provinces."
+#~ msgstr "per aggiungere stati o province personalizzati."
+
+#~ msgid "Minimum quantity"
+#~ msgstr "Quantità minima"
